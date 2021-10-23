@@ -85,5 +85,3 @@ function numberToamine(number){
 	}
 	return amine.join("");
 }
-
-
