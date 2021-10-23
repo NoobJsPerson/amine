@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>amine Interpreter</title>
+    <script src="amine.js" defer></script>
+    <style>
+    	textarea, button {
+    		display: block;
+    	}
+    	button {
+    		margin-left: 60%;
+    	}
+    </style>
+</head>
+
+<body>
+<label for="input">Code</label>
+<textarea id="input" cols="30" rows="20"></textarea>
+<button onclick="interpret()">Run</button>
+<label for="output">Output</label>
+<textarea id="output" cols="30" rows="5" disabled></textarea>
+</body>
+
+</html>
