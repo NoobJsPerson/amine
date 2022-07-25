@@ -52,7 +52,7 @@ async function interpret(){
 				// jumps by the amount of line of code specified in the value of the first variable and uses the first bit of the second variable to determine whether to jump forwards or backwards 
 				isamine(words[1], words[2]);
 				i += (variables.get(words[1]) + 1) * ((variables.get(words[2]) % 1) ? -1 : 1)
-				// sleep 10 seconds so the website doesn't crash
+				// sleep 10 milliseconds so the website doesn't crash
 				await sleep(10);
 				break;
 			case "AmINE":
